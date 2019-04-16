@@ -1,6 +1,6 @@
 remote_theme : rohanchandra/type-theme
 # SITE CONFIGURATION
-baseurl: "/type-theme"
+baseurl: ""
 url: "https://mintway0341.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
