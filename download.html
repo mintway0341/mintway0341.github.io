@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>Concodify</title>
+    <link rel = "stylesheet" type = "text/css" href = "download.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src = "concodify.js"></script>
+    <nav id = "navbar_custom" class="navbar navbar-default">
+        <div class = "container">
+            <div class="navbar-header">
+                <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a id = "navbar_logo" href="#" class="navbar-brand"><span class = "glyphicon glyphicon-console" aria-hidden="true"></span>Concodify</a>
+            </div>
+            <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+                <!-- left -->
+                <ul class = "nav navbar-nav" id="test">
+                    <li>
+                        <a href = "home.html" style="color: white;">Home</a>
+                    </li>
+                    <li>
+                        <a href = "about.html" style="color: white;">About</a>
+                    </li>
+                    <li>
+                        <a href = "subscribe.html" style="color: white;">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href = "download.html" style="color: white;">Download</a>
+                    </li>
+                </ul>
+        
+                <!-- right -->
+                <ul class = "nav navbar-nav navbar-right">
+                    <li>
+                        <a href = "#" style="color: white;">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href = "#" style="color: white;">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class = "container">
+        <div id = "download_jumbotron" class = "jumbotron">
+            <div>
+                <div style = "float:left; width:42%">
+                    <div class = "container justify-content-center align-self-center">
+                        <h2><span aria-hidden = "true"></span>Mac</h2>
+                        <button id = "download_btn_mac" type="button" class="btn btn-primary" onmouseover = "change_color_mac_1()" onmouseout = "change_color_mac_2()"><span class = "glyphicon glyphicon-save" aria-hidden="true"></span>&nbsp&nbspDownload</button>
+                    </div>
+                </div>
+                <div style = "float:left; width:16%">
+                    <div class = "container justify-content-center align-self-center">
+                        <h2><span aria-hidden = "true"></span>Windows</h2>
+                        <button id = "download_btn_windows" type="button" class="btn btn-primary" onmouseover = "change_color_windows_1()" onmouseout = "change_color_windows_2()"><span class = "glyphicon glyphicon-save" aria-hidden="true"></span>&nbsp&nbspDownload</button>
+                    </div>
+                </div>
+                <div style = "float:right; width:42%">
+                    <div class = "container justify-content-center align-self-center">
+                        <h2><span aria-hidden = "true"></span>Linux</h2>
+                        <button id = "download_btn_linux" type="button" class="btn btn-primary" onmouseover = "change_color_linux_1()" onmouseout = "change_color_linux_2()"><span class = "glyphicon glyphicon-save" aria-hidden="true"></span>&nbsp&nbspDownload</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
